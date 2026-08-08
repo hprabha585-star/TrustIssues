@@ -17,4 +17,4 @@ cp -r dist ../server/public
 echo "Installing server deps..."
 cd ../server && npm install --omit=dev
 
-echo "Done. Run 'node index.js' inside /server, or zip /server and upload to Hostinger."
+echo "Done. Run 'node app.js' inside /server, or zip /server and upload to Hostinger."
