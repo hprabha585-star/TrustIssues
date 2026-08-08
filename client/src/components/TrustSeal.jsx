@@ -8,7 +8,6 @@ export default function TrustSeal({ score, size = 220, label = 'Organizational T
   return (
     <div className="relative inline-flex flex-col items-center">
       <svg width={size} height={size} className="-rotate-90">
-        {/* engraved ridge rings */}
         <circle cx={size / 2} cy={size / 2} r={r + 6} fill="none" stroke="#2E353D" strokeWidth="1" />
         <circle cx={size / 2} cy={size / 2} r={r - 6} fill="none" stroke="#2E353D" strokeWidth="1" />
         <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="#242A31" strokeWidth="10" />
