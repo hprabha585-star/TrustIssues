@@ -1,0 +1,13 @@
+{
+  "name": "trustissues",
+  "private": true,
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server/app.js",
+    "postinstall": "npm install --prefix client && npm install --prefix server --omit=dev && node build.js"
+  }
+}
